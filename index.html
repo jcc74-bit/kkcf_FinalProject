@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>JC's Portfolio</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Pacifico&display=swap" rel="stylesheet"> <!-- font -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="style.css" rel="stylesheet"> <!-- css page -->
+</head>
+<body>
+
+  <!-- nav bar with the links -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <div class="container">
+      <a class="navbar-brand d-flex align-items-center" href="#">
+        <img src="data:image/png;base64,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"  
+             alt="Logo" 
+             style="width:40px; height:40px; border-radius:50%; margin-right:8px;">
+        JC's Portfolio
+      </a>
+
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto align-items-center">
+          <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="aboutme.html">About Me</a></li>
+          <li class="nav-item"><a class="nav-link" href="business.html">Business</a></li>
+          <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+          <li class="nav-item ms-3">
+            <button id="toggleModeBtn" class="btn btn-outline-light">Dark Mode</button>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- words (me) -->
+  <div class="hero">
+      <h1 class="pacifico-regular">JC's Portfolio</h1>
+      <a href="aboutme.html" class="btn btn-primary mt-3">Learn More</a>
+  </div>
+
+  <script>
+    // dark mode toggle
+    const toggleBtn = document.getElementById("toggleModeBtn");
+    const body = document.body;
+
+    // load saved mode
+    if (localStorage.getItem("theme") === "dark") {
+        body.classList.add("dark-mode");
+        toggleBtn.textContent = "Light Mode";
+    }
+
+    toggleBtn.addEventListener("click", function() {
+        body.classList.toggle("dark-mode");
+
+        if (body.classList.contains("dark-mode")) {
+            toggleBtn.textContent = "Light Mode";
+            localStorage.setItem("theme", "dark");
+        } else {
+            toggleBtn.textContent = "Dark Mode";
+            localStorage.setItem("theme", "light");
+        }
+    });
+  </script>
+
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
