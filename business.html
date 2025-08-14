@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio Homepage</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet"> <!-- css page -->
+    <style>
+        .hero {
+            background-color: #f8f9fa;
+            padding: 50px 0;
+            text-align: center;
+        }
+
+        .highlight {
+            color: #007bff;
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+
+    <!-- nav bar with the links -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+        <div class="container">
+            <a class="navbar-brand d-flex align-items-center" href="#">
+                <img src="data:image/jpeg;base64,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"
+            alt="Logo" 
+                     style="width:40px; height:40px; border-radius:50%; margin-right:8px;">
+                AeroVita 
+              </a>
+
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto align-items-center">
+                    <li class="nav-item"><a class="nav-link active" href="index.html">Home</a></li>
+                    <li class="nav-item"><a class="nav-link" href="aboutme.html">About Me</a></li>
+                    <li class="nav-item"><a class="nav-link" href="business.html">Business</a></li>
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+                    <li class="nav-item ms-3">
+                        <button id="toggleModeBtn" class="btn btn-outline-light">Dark Mode</button>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <div class="hero">
+        <div class="container">
+            <img src="logo.png" alt="My Logo" />
+            <h1> AeroVita </h1>
+            <p class="lead"> | When two worlds collide, Life takes off | Precision for Life in Motion | </p>
+        </div>
+    </div>
+
+    <div class="container my-5">
+        <h2>What is AeroVita?</h2>
+        <p> AeroVita is a company dedicated to branching two distant fields, aerospace and biomedical, together. Our primary goal is to make STEM available everywhere and allow anyone to gain experience if theyre intrested in the field. We aim to innovate technologies that are able to be used by any age group. </en>
+    </div>
+
+    <div class="container my-5">
+        <h2 class="text-center mb-4">Wireframming for AeroVita</h2>
+        <img src="wirefram.png" alt="Wireframe" />
+        <p> Homepage for AeroVita </en>
+    </div>
+    
+    <div class="container my-5">
+        <div class="row justify-content-center text-center">
+            <div class="col-md-4 mb-4">
+                <h2 class="info">Logos</h2>
+                <img src="2logo.png" alt="Logos" class="img-fluid" />
+                <p> Aerovita's Two Logos </p>
+            </div>
+
+            <div class="col-md-4 mb-4">
+                <h2 class="info">AeroVita Mood Board</h2>
+                <img src="colors.png" alt="MoodBoard" />
+                <p> Moodboard for AeroVita including the color pallet </p>
+            </div>
+        </div>
+    </div>
+    
+    <script>
+
+        const toggleBtn = document.getElementById("toggleModeBtn");
+        const body = document.body;
+
+        if (localStorage.getItem("theme") === "dark") {
+            body.classList.add("dark-mode");
+            toggleBtn.textContent = "Light Mode";
+        }
+
+        toggleBtn.addEventListener("click", function () {
+            body.classList.toggle("dark-mode");
+
+            if (body.classList.contains("dark-mode")) {
+                toggleBtn.textContent = "Light Mode";
+                localStorage.setItem("theme", "dark");
+            } else {
+                toggleBtn.textContent = "Dark Mode";
+                localStorage.setItem("theme", "light");
+            }
+        });
+    </script>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
